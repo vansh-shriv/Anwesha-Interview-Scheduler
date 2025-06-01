@@ -1,6 +1,6 @@
 .home-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc 0%, #e9ecef 100%);
+  background: #f5f7fa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,72 +10,71 @@
 
 .home-content {
   background: #fff;
-  border-radius: 18px;
-  box-shadow: 0 4px 32px 0 #0001, 0 1.5px 8px 0 #007bff11;
-  padding: 44px 32px 36px 32px;
-  max-width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px 0 #0001;
+  padding: 36px 28px 28px 28px;
+  max-width: 400px;
   width: 100%;
   text-align: center;
-  position: relative;
-  border: 1.5px solid #e3e8ee;
+  border: 1px solid #e3e8ee;
 }
 
 .logo-glow {
-  font-size: 3.2rem;
-  margin-bottom: 16px;
-  filter: none;
-  color: #007bff;
-  text-shadow: 0 2px 8px #007bff22;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #23395d;
+  font-weight: 700;
+  text-shadow: none;
 }
 
 .home-title {
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 14px;
-  color: #1a237e;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  color: #23395d;
   text-shadow: none;
 }
 
 .home-desc {
-  font-size: 1.08rem;
-  margin-bottom: 28px;
+  font-size: 1rem;
+  margin-bottom: 22px;
   color: #444;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .cult-highlight {
-  color: #007bff;
+  color: #23395d;
   font-weight: 600;
   text-shadow: none;
 }
 
 .start-btn {
-  background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+  background: #23395d;
   color: #fff;
-  font-size: 1.08rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
   border: none;
-  border-radius: 7px;
-  padding: 13px 32px;
+  border-radius: 5px;
+  padding: 11px 28px;
   cursor: pointer;
-  box-shadow: 0 2px 8px #007bff22;
+  box-shadow: 0 1px 4px #23395d11;
   transition: background 0.2s, transform 0.2s;
 }
 .start-btn:hover {
-  background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
-  transform: scale(1.03);
+  background: #1a2740;
+  transform: scale(1.02);
 }
 
 @media (max-width: 600px) {
   .home-content {
-    padding: 28px 6px 20px 6px;
+    padding: 18px 4px 14px 4px;
     max-width: 98vw;
   }
   .home-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .logo-glow {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
-} 
+}
