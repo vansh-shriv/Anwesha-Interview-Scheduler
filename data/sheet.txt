@@ -1,0 +1,2 @@
+Google sheet URL = "https://docs.google.com/spreadsheets/d/1HAfw-HpLzHu4Ofpw9Vo_hVFI0FOIc-LALmV3Y_pdKqY/edit?gid=0#gid=0"
+This sheet contains the whole database;
